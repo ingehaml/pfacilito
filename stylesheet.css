@@ -151,7 +151,7 @@ label
 	padding: 10px 20px;
 	color:#000;
 	border-radius:5px;
-	border:#FF3;
+	border:2px solid #FF3;
 	transition:0.3s;
 	margin:10px 0;
 	display:inline-block;
