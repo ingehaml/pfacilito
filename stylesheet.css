@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background:url(red.jpg);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+#contenido
+{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+h1
+{
+	color:#e44e2d;
+	font-family: 'Russo One', sans-serif;
+	text-align:center;
+	
+}
+
+/*Configurar el Titulo Principal de la Página*/
+header hgroup h1
+{
+	text-shadow:0px 0px 30px rgba(0,0,0,0.5);
+	border-bottom:solid;
+	padding-bottom:10px;
+	border-width:1px;
+	border-color:#1d1d1d;
+	
+}
+/*Configuración de la Botonera*/
+nav ul li
+{
+	display:inline-block;
+	margin-right:10px;
+	color:#1d1d1d;
+	cursor:pointer;
+	padding:5px;
+	transition:all 0.5s linear;
+}
+
+nav ul li:hover
+{
+	background-color:#000;
+	color:#e44e2d;
+	border-radius:5px;
+}
+nav ul li a
+{
+	text-decoration:none;
+}
+
+/*Configuración del Texto Principal*/
+#textoPr
+{
+	width:600px;
+	height:600px;
+	background-color:#666;
+	color:#CCC;
+	margin:0 auto;
+	text-align:justify;
+	border-radius:20px;
+	padding:20px;
+	box-shadow:0px 0px 20px rgba(0,0,0,5);
+}
+
+/*Configuración de los Link*/
+a
+{
+	color:#e44e2d;
+	font-weight:bold;
+}
+
+/*Configurar las barras de la pagina Tutoriales*/
+meter
+{
+	background-color:#FFF;
+	padding:5px;
+	color:#C60;
+	margin-left:20px;
+	width:200px;
+}
+
+label
+{
+	display:block;
+}
+
+#btnSubmit
+{
+	border:none;
+	background-color:#FFF;
+	color:#e44e2d;
+	padding:4px;
+	margin:20px;
+	cursor:pointer;
+}
+
+#calificaciones
+{
+	width:150px;
+	-webkit-appearance:none;
+	background-color:#FFF;
+	height:20px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+
+#calificaciones::-webkit-slider-thumb
+{
+	-webkit-appearance:none;
+	background-color:#e44e2d;
+	border-radius:10px;
+	height:15px;
+	width:10px;
+}
+
+
+#mediaC
+{
+	box-sizing:border-box;
+}
+
+
+.particion
+{
+	display:inline-block;
+	width:45%;
+}
+
+
+#mediaC audio
+{
+	width:200px;
+}
+
+
+#mediaC video
+{
+	height:180px;
+}
+
+	
+
+
