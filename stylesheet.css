@@ -8,7 +8,7 @@ body
 }
 #contenido
 {
-	width:960px;
+	width:950px;
 	margin:0 auto;
 	text-align:center;
 }
@@ -55,7 +55,7 @@ nav ul li a
 /*Configuración del Texto Principal*/
 #textoPr
 {
-	width:600px;
+	width:950px;
 	height:600px;
 	background-color:#666;
 	color:#CCC;
